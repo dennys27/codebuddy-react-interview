@@ -1,0 +1,41 @@
+.sbox{
+top: 20%;
+height: 100%;
+width: 100%;
+width: 62.4%;
+box-sizing: border-box;
+min-height: 40px;
+max-height: 52px;
+min-width: 580px;
+max-width: 596px;
+white-space: nowrap;
+position: fixed;
+z-index: 2;
+margin: 0 0 0 228px;
+}
+
+.sbform{
+width: 100%;
+background-color: transparent;
+font: normal 1rem "Segoe UI",Arial,Helvetica,Sans-Serif;
+padding-right: 10px;
+box-shadow: 0 2px 4px rgba(0,0,0,.3);
+align-items: center;
+justify-content: flex-end;
+display: inline-flex;
+border-radius: 24px;
+height: 100%;
+position: relative;
+background-color: #fff;
+display:"flex"
+}
+
+.search_input{
+    outline:none;
+    border:none;
+    margin-left: 15px;
+}
+
+.languages{
+    font-size: 13px;
+}

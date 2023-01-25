@@ -21,10 +21,10 @@
     }
   ],
   "rules": {
-    "prettier/prettier": "error",
+    "prettier/prettier": ["error", { "endOfLine": "auto" }],
     "indent": 0,
     "max-len": "off",
-    "linebreak-style": ["error", "unix"],
+    "linebreak-style": [0, "error", "windows"],
     "no-plusplus": "off",
     "quotes": ["error", "single"],
     "semi": ["error", "always"],
@@ -36,6 +36,7 @@
     "no-underscore-dangle": "off",
     "no-restricted-syntax": "off",
     "func-names": "off",
+    "arrow-body-style": "off",
     "operator-linebreak": "off",
     "padding-line-between-statements": [
       "error",

@@ -1,0 +1,11 @@
+.carousel_wrapper{
+  display: block;
+  top: calc(7vh + 9.0625rem);
+  min-width: 768px;
+  overflow-y: visible;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+}
+

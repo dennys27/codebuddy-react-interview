@@ -1,0 +1,8 @@
+.wrapper{
+    height:100vh;
+    width: 100%;
+    display: block;
+    background-image: url("https://www.bing.com/th?id=OHR.ColleSantaLucia_EN-IN1640555463_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&qlt=50");
+    background-position: center;
+    background-size: cover;
+}
