@@ -1,21 +1,14 @@
 .sbox{
-top: 20%;
-height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
 width: 100%;
-width: 62.4%;
-box-sizing: border-box;
-min-height: 40px;
-max-height: 52px;
-min-width: 580px;
-max-width: 596px;
-white-space: nowrap;
-position: fixed;
-z-index: 2;
-margin: 0 0 0 228px;
+margin-top: 50px;
 }
 
 .sbform{
-width: 100%;
+width: 596px;
 background-color: transparent;
 font: normal 1rem "Segoe UI",Arial,Helvetica,Sans-Serif;
 padding-right: 10px;
@@ -24,8 +17,7 @@ align-items: center;
 justify-content: flex-end;
 display: inline-flex;
 border-radius: 24px;
-height: 100%;
-position: relative;
+height: 50px;
 background-color: #fff;
 display:"flex"
 }

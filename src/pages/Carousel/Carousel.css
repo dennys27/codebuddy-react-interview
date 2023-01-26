@@ -1,11 +1,21 @@
 .carousel_wrapper{
-  display: block;
-  top: calc(7vh + 9.0625rem);
-  min-width: 768px;
-  overflow-y: visible;
-  width: 100%;
-  bottom: 0;
-  position: absolute;
-  z-index: 1;
+  height: 340px;
+  overflow: scroll;
+  overflow-x: hidden;
+  padding-top: 100px;
+  margin-top: 100px;
 }
+
+
+.carousel_wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.carousel_wrapper {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+
 

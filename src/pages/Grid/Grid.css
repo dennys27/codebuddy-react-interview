@@ -1,0 +1,30 @@
+.grid_wrapper {
+  min-width: 870px;
+  max-width: 870px;
+  
+}
+
+.news {
+  border-radius: 5px;
+}
+
+.weather {
+  width: 300px;
+  height: 140px;
+  border-radius: 5px;
+  background-color: rgb(222, 223, 197);
+}
+
+.weather_title {
+  color: #362900;
+}
+
+
+.sports {
+  width: 300px;
+  height: 120px;
+  border-radius: 5px;
+   background: linear-gradient(160deg, rgba(46, 58, 101, 0), rgb(46, 58, 101)), rgb(43, 43, 43);
+  font-size: 12px;
+}
+

@@ -1,0 +1,82 @@
+.scroll-images {
+  width: 924px;
+  height: auto;
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: 0px;
+  position: relative;
+}
+
+/* .child {
+  height: 7.75rem;
+  width: 11.625rem;
+  margin: 1px 10px;
+  border-radius: 5px;
+  
+} */
+
+.child-img {
+  height: 7.75rem;
+  width: 11.625rem;
+  margin: 1px 10px;
+  border-radius: 5px;
+  z-index: 1;
+  position: relative;
+}
+
+.scroll-images::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scroll-images {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.cover {
+  padding: 0px 30px;
+  position: relative;
+  width: 924px;
+  margin-top: 200px;
+}
+
+.left {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.right {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.scroll-images::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.left-arrow {
+  width: 30px;
+  height: 30px;
+}
+
+.card_title {
+  width: 11.625rem;
+  height: 30px;
+  background-color: black;
+  opacity: 0.5;
+  position: absolute;
+  z-index: 2;
+  margin-left: 10px;
+  border-radius: 5px;
+  padding: 5px;
+  overflow: hidden;
+  text-align: center;
+}

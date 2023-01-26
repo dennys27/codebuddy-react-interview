@@ -10,7 +10,7 @@ const Home = () => {
     <>
       <main className="wrapper">
         <Navbar />
-        <Container>
+        <Container className="searchbar_wrapper">
           <Searchbar />
         </Container>
         <Carousel />
